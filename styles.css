@@ -98,3 +98,7 @@ body {
     height: 7px;
     position: absolute;
   }
+
+form {
+  text-align: center;
+}
