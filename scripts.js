@@ -28,3 +28,6 @@ function validateForm() {
             }
         }
    
+if (isValid === document.forms["contactForm"].getElementsByTagName("input").length) {
+        document.forms["contactForm"].submit();
+    }
