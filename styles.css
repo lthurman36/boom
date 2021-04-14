@@ -1,5 +1,11 @@
 body {
     background-color: #f949b7;
+   
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
 }
 
 #navbar {
@@ -34,7 +40,7 @@ body {
 .landing--container {
     position: relative;
     margin: 0;
-    background-image: url(bblanding.jpg);
+    background-image: url(img/boombox\ landing.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
