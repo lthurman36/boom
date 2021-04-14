@@ -40,7 +40,7 @@ body {
 .landing--container {
     position: relative;
     margin: 0;
-    background-image: url(img/bblanding.jpg);
+    background-image: url("img/bblanding.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
