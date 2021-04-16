@@ -1,15 +1,31 @@
+body {
+  background-color: #f949b7;
+ 
+}
+
+.h1{
+  padding: 5px 10px;
+  font-family: serif;
+  color: white;
+  font-size: 3em;
+  text-shadow: 2px 2px 2px rgba(black, .4);
+}
+
 .container {
     position: relative;
     width: 50%;
+    padding: 5px 10px;
   }
   
   .image {
     opacity: 1;
+    border-radius: 35px;
     display: block;
-    width: 100%;
+    max-width: 75%;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
   .middle {
@@ -24,7 +40,7 @@
   }
   
   .container:hover .image {
-    opacity: 0.3;
+    opacity: 0.8;
   }
   
   .container:hover .middle {
@@ -33,7 +49,11 @@
   
   .text {
     background: rgba(25, 25, 25, .5);
+    border-radius: 25px;
     color: white;
-    font-size: 16px;
+    font-size: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    width:8em;
     padding: 16px 32px;
   }
