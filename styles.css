@@ -1,32 +1,40 @@
 body {
     background-color: #f949b7;
-   
 }
 
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
+    @viewport {
+      width: device-width ;
+      zoom: 1.0 ;
+    }
+
+.parallax {
+  background-image: url("img/landing.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #navbar {
     background: #c8d2eb ;
     width: 100%;
-    height: 20px;
-    padding: 35px 45px;
+    height: 10px;
+    padding: 45px 45px;
     overflow: hidden;
     text-align: center;
 }
 
     a {
-      font-family: sans;
+      font-family: 'Patrick Hand', cursive;
       letter-spacing: 3px;
-      font-size: 0.7em;
+      font-size: 0.9em;
       padding-right: 10%;
       text-transform: uppercase;
     }
 
     .bottom {
-        position: absolute;
+        position: sticky;
         bottom: 0;
         z-index: 1;
         margin: 0;
@@ -38,76 +46,71 @@ body {
       }
 
 .landing--container {
+  padding-top: 70px;
     position: relative;
     margin: 0;
-    background-image: url("img/bblanding.jpg");
+    background-color: #c8d2eb;   
     background-attachment: fixed;
-    background-position: center;
+    background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 95vh;
-  }
-  
-  .landing--title {
-    position: absolute;
-    width: 100%;
-    top: 40%;
+    height: 50vh;
     text-align: center;
   }
+  
     p {
       margin: 0;
-      font-family: sans;
-      text-transform: uppercase;
-      color: white;
+      font-family: 'Patrick Hand', cursive;
+      color: black;
       font-size: 2em;
-      letter-spacing: 0.3em;
-      font-weight: 700;
-      text-shadow: 2px 2px 2px rgba(black, .4);
+      text-align: center;
     }
 
     h1 {
+      padding-top: 50px;
+      font-family: 'Patrick Hand', cursive;
+      text-transform: uppercase;
       margin-top: -20px;
-      font-family: serif;
-      color: white;
+      color: black;
       font-size: 3em;
-      text-shadow: 2px 2px 2px rgba(black, .4);
     }
 
   
   .primary-btn {
-    padding: 20px;
+    margin: 30px;
+    margin: 12px 12px 12px 12px;
+    padding: 12px 0px 12px 12px; 
+   border: 2px solid #f949b7 ;
     outline: 0;
-    border: none;
     text-transform: uppercase;
-    font-family: $sans;
+    font-family: 'Patrick Hand', cursive;
     letter-spacing: 4px;
-    background: $pink;
+    background: #88a5eb;
     border-radius: 25px;
     font-weight: 100;
-    color: $dark;
-    font-size: 0.6em;
+    color:  black;
+    font-size: 0.9em;
     cursor: pointer;
-    transition: $ease;
-    &:hover {
-      color: $light;
-      transition: $ease;
-      transform: scale(1.05);
-    }
-  }
-  
-  .landing--line {
-    background: white;
-    width: 8%;
-    left: 46%;
-    top: 125%;
-    height: 7px;
-    position: absolute;
+    transition: ease;
   }
 
-/* form {
-  text-align: center;
-} */
+
+  
+
+  .about--section{
+    padding-top: 70px;
+    position: relative;
+    margin: 0;
+    background-color: #c8d2eb;   
+    background-attachment: fixed;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+  }
 
 input[type=text], select, textarea {
   width: 100%; 
@@ -169,24 +172,8 @@ html {
   margin: 8px;
 }
 
-.about-section {
-  padding: 50px;
-  text-align: center;
-  background-color: #f949b7;
-  color: white;
-}
+
 
 .container1 {
   padding: 0 16px;
 }
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
