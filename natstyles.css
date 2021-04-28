@@ -65,7 +65,7 @@ body {
 
     h1 {
       margin-top: -20px;
-      font-family: serif;
+      font-family: 'Patrick Hand', cursive;
       color: white;
       font-size: 3em;
       text-shadow: 2px 2px 2px rgba(black, .4);
@@ -105,7 +105,7 @@ body {
 } */
 
 input[type=text], select, textarea, input[type=email] {
-  width: 50%; 
+  width: 100%; 
   padding: 12px;  
   border: 1px solid #ccc; 
   border-radius: 4px; 
@@ -132,6 +132,7 @@ input[type=submit] {
     font-size: 0.9em;
     cursor: pointer;
     transition: ease;
+    text-align: center;
 }
  
 
@@ -143,10 +144,11 @@ input[type=submit]:hover {
 
 
 .container2 {
-  margin: 50px 50px;
+  margin: auto;
+  width: 50%;
   border-radius: 5px;
   background-color:#f2f2f2;
-  padding: auto;
+  padding: 20px;
   align-content: center;
 }
 
@@ -197,12 +199,3 @@ html {
 .title {
   color: grey;
 }
-
-.center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
