@@ -1,60 +1,92 @@
-body {
-  background: #c8d2eb ;
- 
+
+.body {
+  background-color: #c8d2eb;
+
 }
 
-.h1{
+.navheader {
+  display:inline-block
+}
+
+.h1 {
   padding: 5px 10px;
   font-family: serif;
   color: white;
   font-size: 3em;
-  text-shadow: 2px 2px 2px rgba(black, .4);
+  text-shadow: 2px 2px 2px rgba(black, 0.4);
 }
 
 .container {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    padding: 5px 10px;
-  }
+  position: relative;
+  width: 300px;
+  height: 300px;
+  padding: 5px 10px;
+}
+
+.image {
+  vertical-align:bottom;
+  border:0;
+  opacity: 1;
+  border-radius: 35px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
   
-  .image {
-    opacity: 1;
-    border-radius: 35px;
-    display: block;
-    max-width: 75%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  .container:hover .image {
-    opacity: 0.8;
-  }
-  
-  .container:hover .middle {
-    opacity: 1;
-  }
-  
-  .text {
-    background: rgba(25, 25, 25, .5);
-    border-radius: 25px;
-    color: white;
-    font-size: 1vw;
-    margin-left: auto;
-    margin-right: auto;
-    width:8em;
-    
-  }
+}
+
+.imageheader{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.8;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background: rgba(25, 25, 25, 0.5);
+  color: white;
+}
+/* Sticky side nav*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+#side .nav-link.active,
+#side .nav-link:hover,
+#side .nav-link:focus{
+ 
+ 
+}
+
+/* 80s Neon Text*/
+.neon {
+  font-family:'Neon 80s';
+  font-size:5rem;
+  color:#ffedff;
+  padding:30px;
+  filter:url(#stroke) url(#inner-glow) url(#outer-glow) url(#outer-glow1);
+}
