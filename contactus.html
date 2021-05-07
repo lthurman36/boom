@@ -17,9 +17,10 @@
   </nav>
 
 <h1>Contact Us</h1>
-<p><strong>We are happy to answer any questions regarding custom, wholesale, and bulk orders! Please complete the form below and our customer service team will promptly respond to your inquiry.</p></strong><br><br><br>
+<p><strong>We are happy to answer any questions regarding custom, wholesale, and bulk orders!<br>
+  Please complete the form below and our customer service team will promptly respond to your inquiry.</p></strong><br><br><br>
 <form name="contactForm" id="contactForm" method="POST" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" onsubmit="event.preventDefault(); validateForm();">
-<div class="container2">
+  <div class="container2">
   <form action="">
 
     <label for="name">Name*</label><br>
@@ -34,12 +35,14 @@
     <label for="message">Message</label><br>
     <textarea id="message" name="message" placeholder="" style="height:200px"></textarea><br><br><br>
 
-    <input type="submit" value="Submit"></form><br>
+    <input type="submit" value="Submit"></form><br><br>
 
   </form>
+<div>
+
+  <p>Subscribe for new products, deals, & more!</p><br>
+  <input type="radio" id="yes" name="contact-back" value="yes">
+    <label for="yes">Yes please!</label><br><br>
+    <input type="radio" id="no" name="contact-back" value="no">
+    <label for="no">No, thanks</label>
 </div>
-
-
- 
-
-</body>
