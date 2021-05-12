@@ -1,117 +1,117 @@
 body {
-    background-color: #f949b7;
+background-color: #c8d2eb 
 }
 
-    @viewport {
-      width: device-width ;
-      zoom: 1.0 ;
-    }
+@viewport {
+width: device-width ;
+zoom: 1.0 ;
+}
+
+  
 
 .parallax {
-  background-image: url("img/landing.jpg");
-  min-height: 400px;
-  width: auto;
-  background-attachment: fixed;
-  background-position: cover;
-  background-repeat: no-repeat;
-  background-size: cover;
+background-image: url("img/parallax.jpg");
+min-height: 400px;
+width: auto;
+background-attachment: fixed;
+background-position: cover;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 #navbar {
-    background: #c8d2eb ;
-    width: auto;
-    height: 8px;
-    padding: 35px 45px;
-    overflow: fixed;
-    text-align: center;
+background: #c8d2eb ;
+width: auto;
+height: 8px;
+padding: 35px 45px;
+overflow: fixed;
+text-align: center;
 }
 
 
 
-    a {
-      font-family: 'Patrick Hand', cursive;
-      letter-spacing: 3px;
-      font-size: 0.9em;
-      padding-right: 10%;
-      text-transform: uppercase;
-    }
+a {
+font-family: 'Dosis', sans-serif;
+letter-spacing: 3px;
+font-size: 0.9em;
+padding-right: 10%;
+text-transform: uppercase;
+}
 
-    .bottom {
-        position: sticky;
-        bottom: 0;
-        z-index: 1;
-        margin: 0;
-      }
+.bottom {
+position: sticky;
+bottom: 0;
+z-index: 1;
+margin: 0;
+}
       
-      .sticky {
-        position: fixed;
-        top: 0;
-      }
+.sticky {
+position: fixed;
+top: 0;
+}
 
 .landing--container {
-   border: 3px solid #f949b7;
-    position: relative;
-    margin: 0;
-    background-color: #c8d2eb;   
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 50vh;
-    text-align: center;
-  }
-  
-    p {
-      margin: 0;
-      font-family: 'Patrick Hand', cursive;
-      color: black;
-      font-size: 2em;
-      text-align: center;
-    }
+position: relative;
+margin: 0;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 50vh;
+text-align: center;
+}
 
-    h1 {
-      font-family: 'Patrick Hand', cursive;
-      text-transform: uppercase;
-      color: black;
-      font-size: 3em;
-    }
+p {
+margin: 0;
+font-family: 'Dosis', sans-serif;
+color: black;
+font-size: 2em;
+text-align: center;
+}
 
-  
-  .primary-btn {
-    margin: 0;
-    margin: 12px 12px 12px 12px;
-    padding: 12px 12px 12px 12px; 
-   border: 2px solid #f949b7 ;
-    outline: 0;
-    text-transform: uppercase;
-    font-family: 'Patrick Hand', cursive;
-    letter-spacing: 4px;
-    background: #88a5eb;
-    border-radius: 25px;
-    font-weight: 100;
-    color:  black;
-    font-size: 0.9em;
-    cursor: pointer;
-    transition: ease;
-  }
+h1 {
+font-family: 'Dosis', sans-serif;
+text-transform: uppercase;
+color: black;
+font-size: 3em;
+}
 
+.primary-btn {
+margin: 0;
+margin: 12px 12px 12px 12px;
+padding: 12px 12px 12px 12px; 
+border: 2px solid #f949b7 ;
+outline: 0;
+text-transform: uppercase;
+font-family: 'Dosis', sans-serif;
+letter-spacing: 4px;
+background: #88a5eb;
+border-radius: 25px;
+font-weight: 100;
+color:  black;
+font-size: 0.9em;
+cursor: pointer;
+transition: ease;  
+}
 
-  .about--section{
-    padding-top: 70px;
-    position: relative;
-    margin: 0;
-    background-color: #c8d2eb;   
-    background-attachment: fixed;
-    background-position: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-  }
-
+.about--section{
+padding-top: 70px;
+position: relative;
+margin: 0;
+background-color: #c8d2eb;   
+background-attachment: fixed;
+background-position: cover;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 100vh;
+text-align: center;
+}
 h2 {
-  font-family: 'Patrick Hand', cursive;
-  font-size: 50px;
+font-family: 'Dosis', sans-serif;
+font-size: 50px;
+}
 
+@media screen and (max-width:320px) {
+width: 120px;
 }
