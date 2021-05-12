@@ -7,7 +7,7 @@ width: device-width ;
 zoom: 1.0 ;
 }
 
-  
+
 
 .parallax {
 background-image: url("img/parallax.jpg");
@@ -32,10 +32,10 @@ text-align: center;
 
 a {
 font-family: 'Dosis', sans-serif;
-letter-spacing: 3px;
 font-size: 0.9em;
 padding-right: 10%;
-text-transform: uppercase;
+text-decoration: none;
+
 }
 
 .bottom {
