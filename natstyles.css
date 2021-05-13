@@ -132,6 +132,7 @@ input[type=submit]:hover {
   color: $light;
   transition: $ease;
   transform: scale(1.05);
+  font-family: 'Dosis', sans-serif;
 }
 
 
