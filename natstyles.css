@@ -74,7 +74,7 @@ body {
    border: 2px solid #f949b7 ;
     outline: 0;
     text-transform: uppercase;
-    font-family: 'Patrick Hand', cursive;
+    
     letter-spacing: 4px;
     background: #88a5eb;
     border-radius: 25px;
@@ -115,7 +115,7 @@ input[type=submit] {
    border: 2px solid #f949b7 ;
     outline: 0;
     text-transform: uppercase;
-    font-family: 'Patrick Hand', cursive;
+    
     letter-spacing: 4px;
     background: #88a5eb;
     border-radius: 25px;
