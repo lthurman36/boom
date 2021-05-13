@@ -74,7 +74,7 @@ body {
    border: 2px solid #f949b7 ;
     outline: 0;
     text-transform: uppercase;
-    font-family: 'Patrick Hand', cursive;
+    
     letter-spacing: 4px;
     background: #88a5eb;
     border-radius: 25px;
@@ -115,7 +115,7 @@ input[type=submit] {
    border: 2px solid #f949b7 ;
     outline: 0;
     text-transform: uppercase;
-    font-family: 'Patrick Hand', cursive;
+    
     letter-spacing: 4px;
     background: #88a5eb;
     border-radius: 25px;
@@ -132,6 +132,7 @@ input[type=submit]:hover {
   color: $light;
   transition: $ease;
   transform: scale(1.05);
+  font-family: 'Dosis', sans-serif;
 }
 
 
@@ -142,6 +143,7 @@ input[type=submit]:hover {
   background-color:#f2f2f2;
   padding: 20px;
   align-content: center;
+  font-family: 'Dosis', sans-serif;
 }
 
 .column {
